@@ -31,7 +31,6 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  console.log(apiKey);
   return <RouterProvider router={router} />;
 }
 
